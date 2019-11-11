@@ -1,0 +1,19 @@
+GET /kp/esb-envlbl/prod/care/pnl/watson-pnl-search-apic/v1/search/cgi-bin/query-meta?ts=1573487936890&v:sources=kp-doctor&v:project=kp-doctor-project&query=*&rop=NCA&render.function=json-feed-display-document&render.list-show=20&content-type=application%2Fjson&ESB-ENVLBL=PROD&query.num-total=200&num=200&sortby=provider_sort%20last_name&binning-state=city_label%3D%3DRedwood%20City%0A HTTP/1.1
+Host: apims.kaiserpermanente.org
+Connection: keep-alive
+Origin: https://healthy.kaiserpermanente.org
+X-useragentcategory: I
+X-IBM-Client-Id: b8af5a16-0329-4a64-9592-7c3185e850fb
+X-appName: doctors-locations
+X-apiKey: kprwdfdl83184977525379497984
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36
+Accept: application/json, text/plain, */*
+Cache-Control: no-cache
+X-useragenttype: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36
+X-osversion: 5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Referer: https://healthy.kaiserpermanente.org/northern-california/doctors-locations
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,cy;q=0.8,en-GB;q=0.7,lb;q=0.6
+Cookie: rxVisitor=157323315378017GTTKHPPGQDBUT89T419211I3U6DPBK; KPSessionId=2f6384d742200ec31d109f90ddcb97b39aa9704b2cbb2fa5a34; S=2; kpLanguage=en-US; ImpSessionRoP=MRN; dtSa=-; check=true; AMCVS_9644AD4E5628B1ED7F000101%40AdobeOrg=1; AMCV_9644AD4E5628B1ED7F000101%40AdobeOrg=-1712354808%7CMCIDTS%7C18212%7CMCMID%7C75631986425470117963507687873764694707%7CMCAAMLH-1574092529%7C6%7CMCAAMB-1574092529%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1573494929s%7CNONE%7CvVersion%7C4.3.0; s_cc=true; BIGipServersearchprd-80=2095584428.20480.0000; dtCookie=30$3914B335AA01AE99AE064AD1D5AAC0CC|114cf834d5fbf36b|1; dtLatC=2; fdl-searchCriteria=%7B%22source%22%3A%22doctors%22%2C%22searchType%22%3A%22doctors%22%2C%22region%22%3A%22NCA%22%2C%22city%22%3A%22Redwood%20City%22%2C%22island%22%3Anull%2C%22providerType%22%3Anull%2C%22practiceArea%22%3Anull%2C%22planType%22%3Anull%2C%22zip%22%3Anull%2C%22distance%22%3A%220%3A11%22%2C%22query%22%3Anull%2C%22filters%22%3A%5B%7B%22id%22%3A%22city_label%22%2C%22value%22%3A%22Redwood%20City%22%7D%5D%2C%22locale%22%3Anull%2C%22location%22%3Anull%2C%22file%22%3A%22viv_yAtBoB%22%2C%22state%22%3A%22root%7Croot-%22%2C%22page%22%3Anull%2C%22sfOrder%22%3A%5B%5D%2C%22version%22%3A1573487936823%7D; mbox=PC#257fb047c40c4ec9993d357106842e95.21_50#1636732533|session#4a55b21f860f4003b6430600130f4ce4#1573489798; rxvt=1573489737186|1573487725381; dtPC=30$287725368_730h29vCMGHOLECLMDGRMMOKJIBDLJCLNIMMDP

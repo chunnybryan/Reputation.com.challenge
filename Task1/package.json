@@ -1,0 +1,17 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "Create a scrapper for Doctors at Kaiser Permenante",
+  "main": "index.js",
+  "scripts": {
+    "test": "ng test"
+  },
+  "keywords": [
+    "scrapper"
+  ],
+  "author": "Christian Bryan",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
