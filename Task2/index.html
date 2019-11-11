@@ -1,0 +1,92 @@
+<html>
+	<head>	
+		<title>Reputation.com | Reviews</title>
+		<link href="https://www.reputation.com/wp-content/themes/reputation/img/icons/favicon.ico?x96724" rel="shortcut icon">		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+	<body>
+	<div class="container">
+		
+		<div class="jumbotron">
+			  <h1 class="display-4">Welcome to Reputation.com reviews</h1>
+			  <p class="lead">See what our customers think of us....</p>
+			  <hr class="my-4">
+			  <p>If you want to change the size of the widget please use the + and - buttons below.</p>
+		</div>		
+		<div class="container">		
+			<div class="row float-right">
+				<div class="col-md-12">
+					<button type="button" onclick="increaseWidgetSize()" class="btn btn-success">Increase++</button>
+					<button type="button" onclick="decreaseWidgetSize()" class="btn btn-danger">Decrease--</button>
+				</div>
+			</div>
+			<a class="reputation-widget" target="_blank" href="https://widgets.reputation.com/widgets/57fe51f5e4b013a2a7880b31/run?tk=be83114f5ec" data-tk="be83114f5ec" data-widget-id="57fe51f5e4b013a2a7880b31" env="">Reputation Reviews</a>
+		</div>
+		<br/>
+		<div class="container">
+			<footer>
+				<div class="card text-white bg-dark mb-12">
+					<div class="card-body">
+						<h5 class="card-title">Footer</h5>
+						<p class="card-text">Copyright: Christian Bryan 11/11/2019</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	
+	<script type="text/javascript">
+	/* Integer */
+	var widgetSize = 600;
+	/* JSON Object */
+	var eventObj;
+	/* Event object */
+	var event;
+	
+	function increaseWidgetSize(){
+	
+		widgetSize = widgetSize + 100;
+		eventObj =  {data: { id: "57fe51f5e4b013a2a7880b31", parameters:{height: widgetSize} }};		
+		event = new MessageEvent("message", eventObj);
+		
+		// Dispatch/Trigger/Fire the event
+		window.dispatchEvent(event);
+		
+	}
+
+	function decreaseWidgetSize(){
+	
+		widgetSize = widgetSize - 100;
+		eventObj =  {data: { id: "57fe51f5e4b013a2a7880b31", parameters:{height: widgetSize} }};		
+		event = new MessageEvent("message", eventObj);
+		
+		// Dispatch/Trigger/Fire the event
+		window.dispatchEvent(event);
+		
+	}
+
+	/* Debugging
+	window.addEventListener('message', function(event) {
+		console.log(event);
+	})
+	*/
+
+
+	function runme(document,script,c){
+	var js,
+		fjs=document.getElementsByTagName(script)[0],
+		p=/^http:/.test(document.location)?"http" :"https";
+			
+		js=document.createElement(script);
+		
+		js.className=c;
+		js.src=p+"://widgets.reputation.com/src/client/widgets/widgets.js";
+		
+		fjs.parentNode.insertBefore(js,fjs);					
+	}
+
+	runme(document,"script","reputation-wjs");
+		
+	</script>
+	</body>
+</html>
